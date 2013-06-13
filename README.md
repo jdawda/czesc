@@ -1,6 +1,6 @@
 # Czesc
 
-TODO: Write a gem description
+Basic hello (czesc) gem
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+$ Czesc.hi
+$ Czesc.hi(:spanish)
 
 ## Contributing
 

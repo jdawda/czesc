@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["jdawda@yahoo.com"]
   gem.description   = "A simple hello world (czesc) gem."
   gem.summary       = "Czesc!"
-  gem.homepage      = 'http://rubygems.org/gems/czesc'
+  gem.homepage      = 'https://github.com/jdawda/czesc'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "czesc"
   gem.require_paths = ["lib"]
   gem.version       = Czesc::VERSION
+  gem.executables   = ['czesc']
 end

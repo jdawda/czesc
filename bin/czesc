@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'czesc'
+puts Czesc.hi(ARGV[0])
